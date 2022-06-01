@@ -6,3 +6,18 @@
 - [Ping_Pong](./Analyse_forensique/Ping_Pong/Ping_Pong.md)
 - [Agent_Compromis 1/3,2/3](./Analyse_forensique/Agent_Compromis/Agent_Compromis.md)
 - [SOS_RAID 1/2, 2/2](./Analyse_forensique/SOS_RAID/SOS_RAID.md)
+
+## Rétro-ingénierie
+
+- [Renverse la tour 1/2 2/2](./Rétro-ingénierie/Renverse_la_tour/Renverse_la_tour.md)
+- [Mise à jour requise](./Rétro-ingénierie/Mise_a_jour_requise/Mise_a_jour_requise.md)
+- [Pas de mise à jour](./Rétro-ingénierie/Pas_de_mise_a_jour/Pas_de_mise_a_jour.md) (Oublié)
+
+## Stéganographie
+
+- [La plume à la main](./Stéganographie/La_plume_à_la_main.md)
+- [PNG : Un logo obèse 1/4](./Stéganographie/Un_logo_obèse.md)
+
+## Programmation
+
+- [Compression](./Programmation/Compression/Compression.md)

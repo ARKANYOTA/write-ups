@@ -3,18 +3,18 @@
 > Heureusement, nous surveillons ce qu'il se passe sur notre réseau et nous avons donc une capture réseau de l'activité de son ordinateur. Retrouvez le fichier qu'il a téléchargé pour exfiltrer nos fichiers confidentiels.
 
 1. On ouvre le .pcapng avec wireshark
-2. On voit que le packet 25719 est un GET exfiltration.py
-3. On recupere le resultat, on l'ouvre, et a la dernière ligne on à:
+2. On voit que le packet `25719` est un GET exfiltration.py
+3. On récupère le résultat, on l'ouvre et a la dernière ligne on a :
 
 
 | `404CTF{t3l3ch4rg3m3n7_b1z4rr3}` |
-| ---------------------------------- |
+|----------------------------------|
 
 > Maintenant, nous avons besoin de savoir quels fichiers il a exfiltré.
 >
 > Format du flag : 404CTF{fichier1,fichier2,fichier3,...} Le nom des fichiers doit être mis par ordre alphabétique.
 
-4. On crée le programe main.py: on a:
+4. On crée le programme `main.py`: on a:
 
 ```python
 25720
@@ -28,9 +28,10 @@
 31320
 ```
 
-5. On unhexlify les packet suivant: pour avoir le nom de chaque fichier
+5. On `unhexlify` les packets suivant : pour avoir le nom de chaque fichier
 
 ```python
+>>> import binascii
 >>> binascii.unhexlify("666c61672e747874")
 b'flag.txt'
 >>> binascii.unhexlify("68616c6c6562617264652e706e67")
@@ -51,8 +52,13 @@ Et on a:
 
 
 | `404CTF{exfiltration.py,flag.txt,hallebarde.png,super-secret.pdf}` |
-| -------------------------------------------------------------------- |
+|--------------------------------------------------------------------|
 
-7. On continue le progame main.py
+> Il semblerait que l'agent compromis a effacé toutes les sauvegardes des fichiers qu'il a exfiltré. Récupérez le contenu des fichiers.
+>
+> Le réseau était un peu instable lors de la capture, des trames ont pu être perdues.
+
+
+7. On continue le programme main.py
 
 ... Et j'y arrive pas a flag
