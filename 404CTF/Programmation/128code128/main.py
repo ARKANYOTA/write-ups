@@ -35,7 +35,7 @@ def main():
         try:
             l.append(int(table[ind][6]))
         except:
-            print("Ne'et pas passé", table[ind][5])
+            print("N'est pas passé", table[ind][5])
     for i in l:
         outut += chr(i)
     os.system(f"echo '{outut}' | xsel --clipboard")
