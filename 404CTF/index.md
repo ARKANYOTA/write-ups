@@ -1,3 +1,7 @@
+There are also two Android-based operating systems compatible with x86 computers which will let you install Android apps:
+
+Android-x86
+BlissOS
 # 404 CTF
 
 ## Analyse_forensique
@@ -21,3 +25,4 @@
 ## Programmation
 
 - [Compression](./Programmation/Compression/Compression.md)
+- [Découpe](./Programmation/Découpe/Découpe.md)
