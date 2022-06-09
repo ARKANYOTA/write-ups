@@ -12,7 +12,7 @@
 - [Renverse la tour 1/2 2/2](./Rétro-ingénierie/Renverse_la_tour/Renverse_la_tour.md)
 - [Mise à jour requise](./Rétro-ingénierie/Mise_a_jour_requise/Mise_a_jour_requise.md)
 - [Pas de mise à jour](./Rétro-ingénierie/Pas_de_mise_a_jour/Pas_de_mise_a_jour.md) (Oublié)
-- [Mot de passe](./Rétro-ingénierie/Mod_de_Passe/Mot_de_Passe.md)
+- [Mot de passe](./Rétro-ingénierie/Mot_de_Passe/Mot_de_Passe.md)
 
 ## Stéganographie
 

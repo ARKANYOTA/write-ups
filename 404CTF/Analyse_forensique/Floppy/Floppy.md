@@ -2,7 +2,7 @@
 
 1. On execute `testdisk floppy.img`
 2. On obtient 5 images en .JPG
-3. Dans l'image 3 on a un flag
+3. Dans l'image 3 on a un flag.
 
 | `404CTF{@v3z_v0vz_z0rt1_135_p0ub3ll35}` |
 |-----------------------------------------|
