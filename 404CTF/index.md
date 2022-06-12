@@ -53,4 +53,4 @@
 
 ## Web3:
 - [Pense-bête](./Web3/Pense-bête.md)
-- La guerre des contrats 1/2
+- [La guerre des contrats 1/2](./Web3/La_Guerre_des_Contrats.md)
