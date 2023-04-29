@@ -45,9 +45,9 @@ Apple map:
 > 200, April 28th, 9:56:28 PM  
   
 dans le terminal:  
-ftp <url>  
-<name part1>  
-<pass part1>  
+ftp (url)  
+(name part1)  
+(pass part1)  
   
 download file  
 ./gocrackzip dictattack ~/Downloads/Last_clients.zip rockyou.txt  
@@ -75,10 +75,10 @@ little endian -> big endian, et xor les 13 premier avec les 13 dernier
   
 tapper les commandes:  
 username admin  
-password <celui qui est donne dans lenoncé>  
-setValvle <un nombre tres grand>  
-set<jsp>Text <une string tres grande>  
-get<jsp>FTP  
+password (celui qui est donne dans lenoncé)  
+setValvle (un nombre tres grand)  
+set(jsp)Text (une string tres grande)  
+get(jsp)FTP  
   
 ### SECURE KEY CHECK3R (Easy)  
 > 300, April 28th, 8:26:10 PM  
