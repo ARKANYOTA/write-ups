@@ -7,4 +7,4 @@ ARKANYOTA Write-Ups's
 - [404CTF](404CTF/index.md): 404ctf.fr
 
 ## 2023
-- [OpenCycom](OpenCycom2022/index.md): https://ctf.opencycom.fr/
+- [OpenCycom](OpenCycom2023/index.md): https://ctf.opencycom.fr/
