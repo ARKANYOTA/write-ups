@@ -152,7 +152,13 @@ Utilisation de google image
   
 ### Welcome  
 > 10, April 28th, 7:44:19 P  
-  
+
+## Solution de chall que j'ai pas fait
+
+### 19.5:20
+Faille à exploiter: aCropalypse
+mettre l'image dans https://acropalypse.app/, en choissiant pixel 3
+
 ## Mes resultats  
   
 ### Classement: Top 2  
