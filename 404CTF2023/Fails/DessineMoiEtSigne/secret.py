@@ -1,0 +1,1 @@
+FLAG = "404CTF{C'est oui}"

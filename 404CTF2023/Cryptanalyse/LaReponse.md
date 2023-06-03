@@ -1,10 +1,28 @@
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa => gvshnmijdwalablggmejiqvrhkixhns
+# La Réponse de Voris
+
+## Description
+
+```
+Vous rencontrez Mme de Beauvoir qui vous explique vouloir surprendre son mari Jean Sol Partre. Ce dernier est en train d'écrire un livre et a demandé à son ami Voris un titre approprié. Elle a réussi à se procurer un étrange message, qu'elle pense avoir été chiffré par Voris afin de limiter les fuites d'information. Ne sachant quoi faire avec ceci, elle s'est décidée à aller à la séance de spiritualisme du samedi au café littéraire, où elle vous a rencontré aujourd'hui. Par chance, vous connaissez une oracle pouvant peut être vous aider à déchiffrer ce message. Mais, malchance, cette dernière n'est qu'en mesure de chiffrer un message... Dommage, il va falloir réfléchir pour trouver le titre que Voris a proposé à Jean Sol !
+
+
+Format : 404CTF{titre_du_livre}
+
+message chiffré : pvfdhtuwgbpxfhocidqcznupamzsezp
+NainCapable#2614
+
+nc challenges.404ctf.fr 31682
+```
+
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa => gvshnmijdwalablggmejiqvrhkixhns  
 mais
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaab => hwtionjkexbmbcmhhnfkjrwsiljyiot
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaab => hwtionjkexbmbcmhhnfkjrwsiljyiot  
 
 
-on conclut que en changant le dernier char: sa change le premier
+on conclut que en changant le dernier char: sa change le premier de +1
 
 
 
@@ -18,8 +36,6 @@ le deuxieme                   +2
 .
 le i eme                  de +i
 et le reste en bordel
-
-
 
 ```
 In [7]: def diff_entre_chaines(chaine1, chaine2):
@@ -39,25 +55,25 @@ In [7]: def diff_entre_chaines(chaine1, chaine2):
    ...: print(difference)
 ```
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaabaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaabaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaabaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaabaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaabaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaabaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaabaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabaaaaaaaaaa
-aaaaaabaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaabaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaabaaaaaaaaaaaaaaaaaaaaaaaaaa
-abaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-zbaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabaa  
+aaaaaaaaaaaaaaaaaaaaaaaaaaabaaa  
+aaaaaaaaaaaaaaaaaaaaaaaaaabaaaa  
+aaaaaaaaaaaaaaaaaaaaaaaaabaaaaa  
+aaaaaaaaaaaaaaaaaaaaaaaabaaaaaa  
+aaaaaaaaaaaaaaaaaaaaaaabaaaaaaa  
+aaaaaaaaaaaaaaaaaaaaaabaaaaaaaa  
+aaaaaaaaaaaaaaaaaaaaabaaaaaaaaa  
+aaaaaaaaaaaaaaaaaaaabaaaaaaaaaa  
+aaaaaabaaaaaaaaaaaaaaaaaaaaaaaa  
+aaaaabaaaaaabaaaaaaaaaaaaaaaaaa  
+aaaabaaaaaaaaaaaaaaaaaaaaaaaaaa  
+abaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
+zbaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
 
 
+
+```
 En changant le dernier      (-1) on a +1 partout
 En changant le avant dernier(-2) on a +1 partout saut en 0 et 29 ou on a +2
 Out[5]: '[1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]'
@@ -102,6 +118,7 @@ oyoaaaaaaaaaaaaaaaaaaaaaaaaaaaa  lettre -2
 lboaaaaaaaaaaaaaaaaaaaaaaaaaaaa  sum des 2, les 2 derniere lettre de juste
 
 xgudaaaaaaaaaaaaaaaaaaaaaaaaaaa
+```
 
 ```
 In [77]: for x,i in zip([23, 12, 23, 21, 17, 2, 19, 24, 25, 23, 17, 19, 12, 17, 2, 22, 3, 6, 5, 12, 15, 5, 3, 13, 12, 7, 20, 22, 13, 0, 9],range(1,32)):
@@ -374,4 +391,4 @@ et la sommer avec le `<message en clair courant>`
 Jusqu'a que il n'ai plus que des aaa...aaa
 
 
-404CTF{lenclumedesjourneesensoleillees}
+`404CTF{lenclumedesjourneesensoleillees}`
