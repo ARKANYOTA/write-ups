@@ -2,8 +2,8 @@
 
 ## Petit Message à Hackademint
 
-Déja Merci pour ce CTF !  
-Je suis en fin 1ere de prépa en MP2I, et j'aimerais bien intégrer Télécom SudParis, si y'a moyen d'avoir des infos ou discuter avec quelques-uns d’entre vous, vous pouvez me contactez sur discord: `arkanyota#3321`
+Déja, merci pour ce CTF !  
+Je suis en fin 1ere de prépa en MP2I, et je veux intégrer Télécom SudParis, si y'a moyen d'avoir des infos ou discuter avec quelques-uns d’entre vous, vous pouvez me contacter sur discord: `arkanyota#3321`
 
 ## AnalyseForensique
 
