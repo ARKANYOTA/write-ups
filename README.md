@@ -10,3 +10,7 @@ ARKANYOTA Write-Ups's
 
 - [OpenCycom](OpenCycom2023/index.md): https://ctf.opencycom.fr/
 - [404CTF2023](404CTF2023/index.md): 404ctf.fr
+
+## 2025:
+
+- [X3CTF](X3CTF/man-vs-matrix/README.md): x3c.tf
