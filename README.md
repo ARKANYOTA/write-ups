@@ -14,3 +14,4 @@ ARKANYOTA Write-Ups's
 ## 2025:
 
 - [X3CTF](X3CTF/man-vs-matrix/README.md): x3c.tf
+- [404CTF2025](404CTF2025/index.md): 404ctf.fr
